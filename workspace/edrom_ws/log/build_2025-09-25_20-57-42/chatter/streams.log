@@ -1,0 +1,25 @@
+[0.609s] Invoking command in '/my_workspace/edrom_ws/src/chatter': PYTHONPATH=/my_workspace/edrom_ws/build/chatter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/my_workspace/edrom_ws/install/chatter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/chatter build --build-base /my_workspace/edrom_ws/build/chatter/build install --record /my_workspace/edrom_ws/build/chatter/install.log --single-version-externally-managed install_data
+[0.860s] running egg_info
+[0.861s] writing ../../build/chatter/chatter.egg-info/PKG-INFO
+[0.861s] writing dependency_links to ../../build/chatter/chatter.egg-info/dependency_links.txt
+[0.861s] writing entry points to ../../build/chatter/chatter.egg-info/entry_points.txt
+[0.861s] writing requirements to ../../build/chatter/chatter.egg-info/requires.txt
+[0.862s] writing top-level names to ../../build/chatter/chatter.egg-info/top_level.txt
+[0.863s] reading manifest file '../../build/chatter/chatter.egg-info/SOURCES.txt'
+[0.871s] writing manifest file '../../build/chatter/chatter.egg-info/SOURCES.txt'
+[0.871s] running build
+[0.871s] running build_py
+[0.871s] copying chatter/listener_node.py -> /my_workspace/edrom_ws/build/chatter/build/lib/chatter
+[0.871s] running install
+[0.872s] running install_lib
+[0.872s] copying /my_workspace/edrom_ws/build/chatter/build/lib/chatter/listener_node.py -> /my_workspace/edrom_ws/install/chatter/lib/python3.10/site-packages/chatter
+[0.873s] byte-compiling /my_workspace/edrom_ws/install/chatter/lib/python3.10/site-packages/chatter/listener_node.py to listener_node.cpython-310.pyc
+[0.873s] running install_data
+[0.874s] running install_egg_info
+[0.875s] removing '/my_workspace/edrom_ws/install/chatter/lib/python3.10/site-packages/chatter-0.0.0-py3.10.egg-info' (and everything under it)
+[0.876s] Copying ../../build/chatter/chatter.egg-info to /my_workspace/edrom_ws/install/chatter/lib/python3.10/site-packages/chatter-0.0.0-py3.10.egg-info
+[0.877s] running install_scripts
+[0.898s] Installing listener script to /my_workspace/edrom_ws/install/chatter/lib/chatter
+[0.898s] Installing talker script to /my_workspace/edrom_ws/install/chatter/lib/chatter
+[0.898s] writing list of installed files to '/my_workspace/edrom_ws/build/chatter/install.log'
+[0.929s] Invoked command in '/my_workspace/edrom_ws/src/chatter' returned '0': PYTHONPATH=/my_workspace/edrom_ws/build/chatter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/my_workspace/edrom_ws/install/chatter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/chatter build --build-base /my_workspace/edrom_ws/build/chatter/build install --record /my_workspace/edrom_ws/build/chatter/install.log --single-version-externally-managed install_data

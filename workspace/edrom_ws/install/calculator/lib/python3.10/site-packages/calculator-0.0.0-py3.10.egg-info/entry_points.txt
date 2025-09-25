@@ -1,0 +1,4 @@
+[console_scripts]
+calculator_client = calculator.client_node:main
+calculator_server = calculator.server_node:main
+

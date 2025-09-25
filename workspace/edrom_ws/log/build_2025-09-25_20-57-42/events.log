@@ -1,0 +1,39 @@
+[0.000000] (-) TimerEvent: {}
+[0.000478] (chatter) JobQueued: {'identifier': 'chatter', 'dependencies': OrderedDict()}
+[0.000716] (chatter) JobStarted: {'identifier': 'chatter'}
+[0.099571] (-) TimerEvent: {}
+[0.199876] (-) TimerEvent: {}
+[0.300114] (-) TimerEvent: {}
+[0.400360] (-) TimerEvent: {}
+[0.500643] (-) TimerEvent: {}
+[0.600894] (-) TimerEvent: {}
+[0.608915] (chatter) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/chatter', 'build', '--build-base', '/my_workspace/edrom_ws/build/chatter/build', 'install', '--record', '/my_workspace/edrom_ws/build/chatter/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/my_workspace/edrom_ws/src/chatter', 'env': {'HOSTNAME': 'nitro', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ros', 'OLDPWD': '/my_workspace/edrom_ws/src/chatter/chatter', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/my_workspace/edrom_ws/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/my_workspace/edrom_ws/install/chatter:/opt/ros/humble', 'PWD': '/my_workspace/edrom_ws/build/chatter', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/my_workspace/edrom_ws/build/chatter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/my_workspace/edrom_ws/install/chatter/lib/python3.10/site-packages:/my_workspace/edrom_ws/install/chatter/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[0.700983] (-) TimerEvent: {}
+[0.801252] (-) TimerEvent: {}
+[0.861064] (chatter) StdoutLine: {'line': b'running egg_info\n'}
+[0.861744] (chatter) StdoutLine: {'line': b'writing ../../build/chatter/chatter.egg-info/PKG-INFO\n'}
+[0.861942] (chatter) StdoutLine: {'line': b'writing dependency_links to ../../build/chatter/chatter.egg-info/dependency_links.txt\n'}
+[0.862076] (chatter) StdoutLine: {'line': b'writing entry points to ../../build/chatter/chatter.egg-info/entry_points.txt\n'}
+[0.862183] (chatter) StdoutLine: {'line': b'writing requirements to ../../build/chatter/chatter.egg-info/requires.txt\n'}
+[0.862287] (chatter) StdoutLine: {'line': b'writing top-level names to ../../build/chatter/chatter.egg-info/top_level.txt\n'}
+[0.863842] (chatter) StdoutLine: {'line': b"reading manifest file '../../build/chatter/chatter.egg-info/SOURCES.txt'\n"}
+[0.871262] (chatter) StdoutLine: {'line': b"writing manifest file '../../build/chatter/chatter.egg-info/SOURCES.txt'\n"}
+[0.871474] (chatter) StdoutLine: {'line': b'running build\n'}
+[0.871555] (chatter) StdoutLine: {'line': b'running build_py\n'}
+[0.871670] (chatter) StdoutLine: {'line': b'copying chatter/listener_node.py -> /my_workspace/edrom_ws/build/chatter/build/lib/chatter\n'}
+[0.872030] (chatter) StdoutLine: {'line': b'running install\n'}
+[0.872339] (chatter) StdoutLine: {'line': b'running install_lib\n'}
+[0.873161] (chatter) StdoutLine: {'line': b'copying /my_workspace/edrom_ws/build/chatter/build/lib/chatter/listener_node.py -> /my_workspace/edrom_ws/install/chatter/lib/python3.10/site-packages/chatter\n'}
+[0.873685] (chatter) StdoutLine: {'line': b'byte-compiling /my_workspace/edrom_ws/install/chatter/lib/python3.10/site-packages/chatter/listener_node.py to listener_node.cpython-310.pyc\n'}
+[0.874072] (chatter) StdoutLine: {'line': b'running install_data\n'}
+[0.874221] (chatter) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.875963] (chatter) StdoutLine: {'line': b"removing '/my_workspace/edrom_ws/install/chatter/lib/python3.10/site-packages/chatter-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.876251] (chatter) StdoutLine: {'line': b'Copying ../../build/chatter/chatter.egg-info to /my_workspace/edrom_ws/install/chatter/lib/python3.10/site-packages/chatter-0.0.0-py3.10.egg-info\n'}
+[0.877309] (chatter) StdoutLine: {'line': b'running install_scripts\n'}
+[0.898223] (chatter) StdoutLine: {'line': b'Installing listener script to /my_workspace/edrom_ws/install/chatter/lib/chatter\n'}
+[0.898426] (chatter) StdoutLine: {'line': b'Installing talker script to /my_workspace/edrom_ws/install/chatter/lib/chatter\n'}
+[0.898720] (chatter) StdoutLine: {'line': b"writing list of installed files to '/my_workspace/edrom_ws/build/chatter/install.log'\n"}
+[0.901370] (-) TimerEvent: {}
+[0.929183] (chatter) CommandEnded: {'returncode': 0}
+[0.940361] (chatter) JobEnded: {'identifier': 'chatter', 'rc': 0}
+[0.941167] (-) EventReactorShutdown: {}

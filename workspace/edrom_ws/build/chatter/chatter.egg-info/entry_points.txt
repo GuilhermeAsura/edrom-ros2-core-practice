@@ -1,0 +1,4 @@
+[console_scripts]
+listener = chatter.listener_node:main
+talker = chatter.talker_node:main
+

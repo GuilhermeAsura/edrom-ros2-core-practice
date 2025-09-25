@@ -1,0 +1,36 @@
+running egg_info
+creating ../../build/chatter/chatter.egg-info
+writing ../../build/chatter/chatter.egg-info/PKG-INFO
+writing dependency_links to ../../build/chatter/chatter.egg-info/dependency_links.txt
+writing entry points to ../../build/chatter/chatter.egg-info/entry_points.txt
+writing requirements to ../../build/chatter/chatter.egg-info/requires.txt
+writing top-level names to ../../build/chatter/chatter.egg-info/top_level.txt
+writing manifest file '../../build/chatter/chatter.egg-info/SOURCES.txt'
+reading manifest file '../../build/chatter/chatter.egg-info/SOURCES.txt'
+writing manifest file '../../build/chatter/chatter.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /my_workspace/edrom_ws/build/chatter/build
+creating /my_workspace/edrom_ws/build/chatter/build/lib
+creating /my_workspace/edrom_ws/build/chatter/build/lib/chatter
+copying chatter/__init__.py -> /my_workspace/edrom_ws/build/chatter/build/lib/chatter
+copying chatter/talker_node.py -> /my_workspace/edrom_ws/build/chatter/build/lib/chatter
+running install
+running install_lib
+creating /my_workspace/edrom_ws/install/chatter/lib/python3.10/site-packages/chatter
+copying /my_workspace/edrom_ws/build/chatter/build/lib/chatter/__init__.py -> /my_workspace/edrom_ws/install/chatter/lib/python3.10/site-packages/chatter
+copying /my_workspace/edrom_ws/build/chatter/build/lib/chatter/talker_node.py -> /my_workspace/edrom_ws/install/chatter/lib/python3.10/site-packages/chatter
+byte-compiling /my_workspace/edrom_ws/install/chatter/lib/python3.10/site-packages/chatter/__init__.py to __init__.cpython-310.pyc
+byte-compiling /my_workspace/edrom_ws/install/chatter/lib/python3.10/site-packages/chatter/talker_node.py to talker_node.cpython-310.pyc
+Sorry: IndentationError: unindent does not match any outer indentation level (talker_node.py, line 20)
+running install_data
+creating /my_workspace/edrom_ws/install/chatter/share/ament_index
+creating /my_workspace/edrom_ws/install/chatter/share/ament_index/resource_index
+creating /my_workspace/edrom_ws/install/chatter/share/ament_index/resource_index/packages
+copying resource/chatter -> /my_workspace/edrom_ws/install/chatter/share/ament_index/resource_index/packages
+copying package.xml -> /my_workspace/edrom_ws/install/chatter/share/chatter
+running install_egg_info
+Copying ../../build/chatter/chatter.egg-info to /my_workspace/edrom_ws/install/chatter/lib/python3.10/site-packages/chatter-0.0.0-py3.10.egg-info
+running install_scripts
+Installing talker_node script to /my_workspace/edrom_ws/install/chatter/lib/chatter
+writing list of installed files to '/my_workspace/edrom_ws/build/chatter/install.log'

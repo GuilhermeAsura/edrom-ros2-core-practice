@@ -1,0 +1,46 @@
+[0.634s] Invoking command in '/my_workspace/edrom_ws/src/calculator': PYTHONPATH=/my_workspace/edrom_ws/build/calculator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/my_workspace/edrom_ws/install/calculator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/calculator build --build-base /my_workspace/edrom_ws/build/calculator/build install --record /my_workspace/edrom_ws/build/calculator/install.log --single-version-externally-managed install_data
+[0.874s] running egg_info
+[0.874s] creating ../../build/calculator/calculator.egg-info
+[0.875s] writing ../../build/calculator/calculator.egg-info/PKG-INFO
+[0.875s] writing dependency_links to ../../build/calculator/calculator.egg-info/dependency_links.txt
+[0.875s] writing entry points to ../../build/calculator/calculator.egg-info/entry_points.txt
+[0.875s] writing requirements to ../../build/calculator/calculator.egg-info/requires.txt
+[0.875s] writing top-level names to ../../build/calculator/calculator.egg-info/top_level.txt
+[0.875s] writing manifest file '../../build/calculator/calculator.egg-info/SOURCES.txt'
+[0.877s] reading manifest file '../../build/calculator/calculator.egg-info/SOURCES.txt'
+[0.878s] writing manifest file '../../build/calculator/calculator.egg-info/SOURCES.txt'
+[0.878s] running build
+[0.878s] running build_py
+[0.878s] creating /my_workspace/edrom_ws/build/calculator/build
+[0.878s] creating /my_workspace/edrom_ws/build/calculator/build/lib
+[0.878s] creating /my_workspace/edrom_ws/build/calculator/build/lib/calculator
+[0.878s] copying calculator/client_node.py -> /my_workspace/edrom_ws/build/calculator/build/lib/calculator
+[0.878s] copying calculator/__init__.py -> /my_workspace/edrom_ws/build/calculator/build/lib/calculator
+[0.878s] copying calculator/server_node.py -> /my_workspace/edrom_ws/build/calculator/build/lib/calculator
+[0.879s] running install
+[0.879s] running install_lib
+[0.880s] creating /my_workspace/edrom_ws/install/calculator/lib/python3.10/site-packages/calculator
+[0.880s] copying /my_workspace/edrom_ws/build/calculator/build/lib/calculator/client_node.py -> /my_workspace/edrom_ws/install/calculator/lib/python3.10/site-packages/calculator
+[0.880s] copying /my_workspace/edrom_ws/build/calculator/build/lib/calculator/__init__.py -> /my_workspace/edrom_ws/install/calculator/lib/python3.10/site-packages/calculator
+[0.880s] copying /my_workspace/edrom_ws/build/calculator/build/lib/calculator/server_node.py -> /my_workspace/edrom_ws/install/calculator/lib/python3.10/site-packages/calculator
+[0.881s] byte-compiling /my_workspace/edrom_ws/install/calculator/lib/python3.10/site-packages/calculator/client_node.py to client_node.cpython-310.pyc
+[0.881s]   File "/my_workspace/edrom_ws/install/calculator/lib/python3.10/site-packages/calculator/client_node.py", line 26
+[0.881s]     rclpy.spin_until_future_complete(self, self.future)) 
+[0.881s]                                                        ^
+[0.881s] SyntaxError: unmatched ')'
+[0.881s] 
+[0.881s] byte-compiling /my_workspace/edrom_ws/install/calculator/lib/python3.10/site-packages/calculator/__init__.py to __init__.cpython-310.pyc
+[0.881s] byte-compiling /my_workspace/edrom_ws/install/calculator/lib/python3.10/site-packages/calculator/server_node.py to server_node.cpython-310.pyc
+[0.882s] running install_data
+[0.882s] creating /my_workspace/edrom_ws/install/calculator/share/ament_index
+[0.882s] creating /my_workspace/edrom_ws/install/calculator/share/ament_index/resource_index
+[0.882s] creating /my_workspace/edrom_ws/install/calculator/share/ament_index/resource_index/packages
+[0.882s] copying resource/calculator -> /my_workspace/edrom_ws/install/calculator/share/ament_index/resource_index/packages
+[0.882s] copying package.xml -> /my_workspace/edrom_ws/install/calculator/share/calculator
+[0.882s] running install_egg_info
+[0.884s] Copying ../../build/calculator/calculator.egg-info to /my_workspace/edrom_ws/install/calculator/lib/python3.10/site-packages/calculator-0.0.0-py3.10.egg-info
+[0.885s] running install_scripts
+[0.906s] Installing calculator_client script to /my_workspace/edrom_ws/install/calculator/lib/calculator
+[0.907s] Installing calculator_server script to /my_workspace/edrom_ws/install/calculator/lib/calculator
+[0.907s] writing list of installed files to '/my_workspace/edrom_ws/build/calculator/install.log'
+[0.934s] Invoked command in '/my_workspace/edrom_ws/src/calculator' returned '0': PYTHONPATH=/my_workspace/edrom_ws/build/calculator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/my_workspace/edrom_ws/install/calculator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/calculator build --build-base /my_workspace/edrom_ws/build/calculator/build install --record /my_workspace/edrom_ws/build/calculator/install.log --single-version-externally-managed install_data

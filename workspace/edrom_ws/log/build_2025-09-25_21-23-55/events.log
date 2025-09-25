@@ -1,0 +1,4 @@
+[0.000000] (-) TimerEvent: {}
+[0.000272] (-) JobUnselected: {'identifier': 'calculator'}
+[0.000430] (-) JobUnselected: {'identifier': 'chatter'}
+[0.000648] (-) EventReactorShutdown: {}

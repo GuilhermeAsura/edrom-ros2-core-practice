@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/calculator/calculator.egg-info/PKG-INFO
+writing dependency_links to ../../build/calculator/calculator.egg-info/dependency_links.txt
+writing entry points to ../../build/calculator/calculator.egg-info/entry_points.txt
+writing requirements to ../../build/calculator/calculator.egg-info/requires.txt
+writing top-level names to ../../build/calculator/calculator.egg-info/top_level.txt
+reading manifest file '../../build/calculator/calculator.egg-info/SOURCES.txt'
+writing manifest file '../../build/calculator/calculator.egg-info/SOURCES.txt'
+running build
+running build_py
+copying calculator/client_node.py -> /my_workspace/edrom_ws/build/calculator/build/lib/calculator
+running install
+running install_lib
+copying /my_workspace/edrom_ws/build/calculator/build/lib/calculator/client_node.py -> /my_workspace/edrom_ws/install/calculator/lib/python3.10/site-packages/calculator
+byte-compiling /my_workspace/edrom_ws/install/calculator/lib/python3.10/site-packages/calculator/client_node.py to client_node.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/my_workspace/edrom_ws/install/calculator/lib/python3.10/site-packages/calculator-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/calculator/calculator.egg-info to /my_workspace/edrom_ws/install/calculator/lib/python3.10/site-packages/calculator-0.0.0-py3.10.egg-info
+running install_scripts
+Installing calculator_client script to /my_workspace/edrom_ws/install/calculator/lib/calculator
+Installing calculator_server script to /my_workspace/edrom_ws/install/calculator/lib/calculator
+writing list of installed files to '/my_workspace/edrom_ws/build/calculator/install.log'

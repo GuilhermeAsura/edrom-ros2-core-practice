@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/chatter/chatter.egg-info/PKG-INFO
+../../build/chatter/chatter.egg-info/SOURCES.txt
+../../build/chatter/chatter.egg-info/dependency_links.txt
+../../build/chatter/chatter.egg-info/entry_points.txt
+../../build/chatter/chatter.egg-info/requires.txt
+../../build/chatter/chatter.egg-info/top_level.txt
+../../build/chatter/chatter.egg-info/zip-safe
+chatter/__init__.py
+chatter/listener_node.py
+chatter/talker_node.py
+resource/chatter
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

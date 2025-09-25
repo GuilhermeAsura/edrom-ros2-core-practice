@@ -1,0 +1,38 @@
+[0.669s] Invoking command in '/my_workspace/edrom_ws/src/chatter': PYTHONPATH=/my_workspace/edrom_ws/build/chatter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/my_workspace/edrom_ws/install/chatter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/chatter build --build-base /my_workspace/edrom_ws/build/chatter/build install --record /my_workspace/edrom_ws/build/chatter/install.log --single-version-externally-managed install_data
+[0.909s] running egg_info
+[0.909s] creating ../../build/chatter/chatter.egg-info
+[0.909s] writing ../../build/chatter/chatter.egg-info/PKG-INFO
+[0.910s] writing dependency_links to ../../build/chatter/chatter.egg-info/dependency_links.txt
+[0.910s] writing entry points to ../../build/chatter/chatter.egg-info/entry_points.txt
+[0.910s] writing requirements to ../../build/chatter/chatter.egg-info/requires.txt
+[0.910s] writing top-level names to ../../build/chatter/chatter.egg-info/top_level.txt
+[0.910s] writing manifest file '../../build/chatter/chatter.egg-info/SOURCES.txt'
+[0.912s] reading manifest file '../../build/chatter/chatter.egg-info/SOURCES.txt'
+[0.913s] writing manifest file '../../build/chatter/chatter.egg-info/SOURCES.txt'
+[0.913s] running build
+[0.913s] running build_py
+[0.913s] creating /my_workspace/edrom_ws/build/chatter/build
+[0.913s] creating /my_workspace/edrom_ws/build/chatter/build/lib
+[0.913s] creating /my_workspace/edrom_ws/build/chatter/build/lib/chatter
+[0.913s] copying chatter/__init__.py -> /my_workspace/edrom_ws/build/chatter/build/lib/chatter
+[0.913s] copying chatter/talker_node.py -> /my_workspace/edrom_ws/build/chatter/build/lib/chatter
+[0.914s] running install
+[0.914s] running install_lib
+[0.915s] creating /my_workspace/edrom_ws/install/chatter/lib/python3.10/site-packages/chatter
+[0.915s] copying /my_workspace/edrom_ws/build/chatter/build/lib/chatter/__init__.py -> /my_workspace/edrom_ws/install/chatter/lib/python3.10/site-packages/chatter
+[0.915s] copying /my_workspace/edrom_ws/build/chatter/build/lib/chatter/talker_node.py -> /my_workspace/edrom_ws/install/chatter/lib/python3.10/site-packages/chatter
+[0.915s] byte-compiling /my_workspace/edrom_ws/install/chatter/lib/python3.10/site-packages/chatter/__init__.py to __init__.cpython-310.pyc
+[0.916s] byte-compiling /my_workspace/edrom_ws/install/chatter/lib/python3.10/site-packages/chatter/talker_node.py to talker_node.cpython-310.pyc
+[0.916s] Sorry: IndentationError: unindent does not match any outer indentation level (talker_node.py, line 20)
+[0.916s] running install_data
+[0.916s] creating /my_workspace/edrom_ws/install/chatter/share/ament_index
+[0.916s] creating /my_workspace/edrom_ws/install/chatter/share/ament_index/resource_index
+[0.916s] creating /my_workspace/edrom_ws/install/chatter/share/ament_index/resource_index/packages
+[0.916s] copying resource/chatter -> /my_workspace/edrom_ws/install/chatter/share/ament_index/resource_index/packages
+[0.916s] copying package.xml -> /my_workspace/edrom_ws/install/chatter/share/chatter
+[0.916s] running install_egg_info
+[0.918s] Copying ../../build/chatter/chatter.egg-info to /my_workspace/edrom_ws/install/chatter/lib/python3.10/site-packages/chatter-0.0.0-py3.10.egg-info
+[0.919s] running install_scripts
+[0.939s] Installing talker_node script to /my_workspace/edrom_ws/install/chatter/lib/chatter
+[0.940s] writing list of installed files to '/my_workspace/edrom_ws/build/chatter/install.log'
+[0.964s] Invoked command in '/my_workspace/edrom_ws/src/chatter' returned '0': PYTHONPATH=/my_workspace/edrom_ws/build/chatter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/my_workspace/edrom_ws/install/chatter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/chatter build --build-base /my_workspace/edrom_ws/build/chatter/build install --record /my_workspace/edrom_ws/build/chatter/install.log --single-version-externally-managed install_data
